@@ -79,6 +79,7 @@ public class logSignIntoWebApp {
         element1.click();
         Thread.sleep(1000);
         Assert.assertEquals(driver.getCurrentUrl(),"http://duotify.us-east-2.elasticbeanstalk.com/register.php");
+        driver.quit();
 
         //driver.findElement(By.cssSelector("#mainContent. entityInfo. buttonItems. button")).click();
 
